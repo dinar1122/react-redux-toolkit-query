@@ -1,3 +1,21 @@
+
+# Использованные технологии
+### `React`
+
+Отрисовка компонентов и основная логика приложения
+
+### `redux toolkit`
+
+Реализованы запросы к https://jsonplaceholder.typicode.com/ с помощью redux toolkit, в харнилище сохраняется результаты ответов и с помощью селектора предоставляется доступ из любой части приложения
+
+### `rtk query`
+
+Реализованы сами методы удаления и создания постов с опомщью rtk query, в postService описаны ключевые эндпоинты и необходимые параметры для запросов к http://localhost:5000/(база данных в файле db.json, реализована с помощью [JSON server](https://www.npmjs.com/package/json-server/v/0.15.0)), автоматически генерируются хуки для использования сервиса.
+
+### `TypeScript`
+
+Есть необходимая типизация при запросах и передаче данных
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
