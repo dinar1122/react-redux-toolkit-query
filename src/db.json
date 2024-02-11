@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": "6",
+      "title": "another title",
+      "body": 200
+    },
+    {
+      "id": "7",
+      "title": "a title",
+      "body": 100
+    },
+    {
+      "id": "8",
+      "title": "another title",
+      "body": 200
+    },
+    {
+      "id": "9",
+      "title": "another title",
+      "body": 200
+    },
+    {
+      "id": "1994",
+      "title": "created",
+      "body": "created"
+    },
+    {
+      "id": "2c70",
+      "title": "ASadD",
+      "body": "ASadD"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
