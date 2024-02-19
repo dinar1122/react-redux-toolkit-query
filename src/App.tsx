@@ -16,8 +16,8 @@ function App() {
   return (
     <div className="App">
       <div>postItem limit from store: {limit}</div>
-      <input type="text" onChange={(event)=> {dispatch(setLimit(Number(event?.target.value)))}} />
-      {isLoading ? <h1> Loading ...</h1> : <PostsContainer />}
+      <input placeholder='enter limit' type="text" onChange={(event)=> {dispatch(setLimit(Number(event?.target.value)))}} />
+      <PostsContainer />
       {error && <h1> {error}</h1>}
       <div>
         {users?.map((user: any) => {

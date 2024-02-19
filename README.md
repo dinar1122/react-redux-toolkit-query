@@ -18,9 +18,16 @@
 
 Есть необходимая типизация при запросах и передаче данных
 
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `npm i`
+
+### `npm i -g json-server`
+
+### `json-server -w db.json --port 5000` 
+(запуск сервера бд на отличном от фронта порту, в папке с файлом бд) 
+
+### `npm start`
 
 ## Available Scripts
 

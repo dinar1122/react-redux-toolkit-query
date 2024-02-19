@@ -13,7 +13,7 @@ const initialState: UserState = {
   users: [],
   isLoading: false,
   error: '',
-  limit: 0,
+  limit: 15,
 }
 
 export const userSlice = createSlice({
